@@ -52,4 +52,10 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
+    override fun onStart() {
+        super.onStart()
+        editNota1.text?.clear()
+        editNota2.text?.clear()
+        editNota3.text?.clear()
+    }
 }

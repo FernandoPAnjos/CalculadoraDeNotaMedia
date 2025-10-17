@@ -47,9 +47,11 @@ class ResultActivity : AppCompatActivity() {
         caclulateResult()
         }
 
+
         btnNewCalc = findViewById<Button>(R.id.btn_new_calc)
         btnNewCalc.setOnClickListener {
             finish()
         }
     }
+
 }
